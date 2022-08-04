@@ -18,5 +18,8 @@ public class CodeTest {
 
     // 3rd step -Because different assets compute their market values in different ways
     //           We use Interface : getMarketValue and getProfit
+
+    // 4tg step - Similarities between mutual funds and stocks
+    //            both stores assets that are based on shares
   }
 }
