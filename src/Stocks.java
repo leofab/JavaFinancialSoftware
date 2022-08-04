@@ -1,4 +1,4 @@
-public class Stocks extends SharedAsset implements Asset{
+public class Stocks extends SharedAsset {
 
   private int totalShares;
 
