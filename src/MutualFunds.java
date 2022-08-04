@@ -1,4 +1,4 @@
-public class MutualFunds extends SharedAsset implements Asset{
+public class MutualFunds extends SharedAsset{
 
   private double totalShares;
   public MutualFunds(String symbol, double totalCost, double currentPrice) {
@@ -15,10 +15,6 @@ public class MutualFunds extends SharedAsset implements Asset{
     return totalShares;
   }
 
-  @Override
-  public double getProfit() {
-    return getMarketValue() - getTotalCost();
-  }
 
   // records purchase of the given shares at the given market price
   public void purchase(int shares, double pricePerShare){

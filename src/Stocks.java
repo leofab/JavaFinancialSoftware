@@ -13,11 +13,6 @@ public class Stocks extends SharedAsset {
     return totalShares*getCurrentPrice();
   }
 
-  @Override
-  public double getProfit() {
-    return getMarketValue() - getTotalCost();
-  }
-
   public int getTotalShares() {
     return totalShares;
   }

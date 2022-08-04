@@ -21,5 +21,9 @@ public class CodeTest {
 
     // 4tg step - Similarities between mutual funds and stocks
     //            both stores assets that are based on shares
+
+    //
+    Cash cash = new Cash(1000.0);
+    System.out.println(cash.getMarketValue());
   }
 }
